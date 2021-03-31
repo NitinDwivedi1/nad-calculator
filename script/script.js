@@ -46,4 +46,7 @@ function roots()
             itr += 1;
         }
     }
+    else{
+        document.getElementById("ermsg").innerHTML="Error: Enter correct value of a,b..";
+    }
 }

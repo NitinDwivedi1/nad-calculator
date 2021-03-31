@@ -14,7 +14,8 @@
     <div class="container">
         <h1>False position method(Regula-falsi method)</h1><br>
         <input type="text" name="equation" id="equation" placeholder="Enter equation">
-        <br><br><p>Enter range of a,b-</p>
+        <span>(use lowercase 'x')</span>
+        <br><br><p>Enter value of a,b (f(a).f(b)&lt0)-</p>
         <input type="number" id="a" placeholder="value of a">
         <input type="number" id="b" placeholder="value of b">
         <button onclick="roots()">Calculate</button>
@@ -28,6 +29,8 @@
                 <td><b>f(m)</b></td>
             </tr>
         </table>
+        <p id="ermsg"></p>
+        <p>Note: Refresh the page after every run!</p>
         <p id="me">Developed by <strong>Nitin Dwivedi</strong></p>
     
     </div>

@@ -4,6 +4,9 @@ table,td{
     padding-right: 80px;
     table-layout: fixed;
 }
+#ermsg{
+    color: red;
+}
 #me{
     text-align: center;
     padding-top: 50px;
